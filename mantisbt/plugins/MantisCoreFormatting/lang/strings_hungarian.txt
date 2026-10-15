@@ -1,0 +1,83 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit https://translatewiki.net  **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Hungarian (magyar)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit https://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Csega
+ * @author Dani
+ * @author Glanthor Reviol
+ * @author MeskoBalazs
+ */
+
+$s_plugin_format_title = 'MantisBT formázás';
+$s_plugin_format_description = 'Hivatalos szövegfeldolgozó és formázó bővítmény.';
+$s_plugin_format_config = 'Beállítások';
+$s_plugin_format_process_text = 'Szövegfeldolgozás';
+$s_plugin_format_process_text_warning_notice = 'Ne kapcsolja ki, csak ha tényleg tudja, hogy mit csinál. Kikapcsolt állapotban webhelyközi (cross site scripting, XSS) támadások fordulhatnak elő.';
+$s_plugin_format_process_urls = 'Webcímfeldolgozás';
+$s_plugin_format_process_buglinks = 'MantisBT belső hivatkozások (ügyek és ügymegjegyzések)';
+$s_plugin_format_process_buglinks_info = 'A konfiguráció az <em>Issue</em> címkét „%s” értékként, az <em>Issue Note</em> címkét pedig „%s” értékként határozza meg.';
+$s_plugin_format_process_markdown = 'Markdown feldolgozás';
+$s_plugin_format_process_markdown_info = 'Formázás Markdown támogatással, amely egy olyan szövegformázási szintaxis, amely HTML-re alakítható';
+$s_plugin_format_enabled = 'Be';
+$s_plugin_format_disabled = 'Ki';
+$s_plugin_format_syntax_highlighting = 'Szintaxiskiemelés a kódblokkokhoz';
+$s_plugin_format_syntax_highlighting_info = 'A szintaxiskiemelés csak akkor működik, ha a „Markdown feldolgozása” aktív.';
+$s_plugin_format_syntax_highlighting_theme = 'Kódblokkok témája';
+$s_plugin_format_syntax_highlighting_plugins = 'Kódblokkok beállításai';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_name = 'Másolás a vágólapra';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_desc = 'Egy kis gombot jelenít meg, amely a kódblokk tartalmát a vágólapra másolja.';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_copy = 'Másolás';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_success = '✓ Másolva';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_error = 'Nyomja meg a Ctrl+C-t a másoláshoz';
+$s_plugin_format_syntax_highlighting_plugin_show_language_name = 'Nyelv megjelenítése';
+$s_plugin_format_syntax_highlighting_plugin_show_language_desc = 'Megmutatja, hogy a kódblokk milyen nyelvet tartalmaz.';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_name = 'Sorok számozása';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_desc = 'Sorok számának megjelenítése.';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_name = 'Szóközök megjelenítése';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_desc = 'Rejtett karakterek megjelenítése (például behúzásoknál).';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_name = 'Szóközök normalizálása';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_desc = 'Levágja a kódblokk összes kezdő és záró szóközét. Ezenkívül az összes sorból eltávolítja a felesleges behúzásokat és a záró szóközöket.';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_name = 'Zárójelpárok kiemelése';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_desc = 'Ráhúzáskor megjeleníti a zárójelpárokat. Beleértve a „szivárványszínű zárójeleket” is (amikor az összes párnak saját színe van).';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_name = 'A különbségek kiterjesztett kiemelése (diff)';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_desc = 'A szöveg helyett a sor hátterét színezi, és a „diff” mellett nyelvfüggő színezés is lehetséges (például „diff-javascript”).';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_name = 'CSS-színek vizualizálása';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_desc = 'A színdefiníció előtt egy kis színes négyzetet jelenít meg (például a „#000” előtt).';
+$s_plugin_format_syntax_highlighting_plugin_previewers_name = 'Egyes CSS-definíciók előnézetei';
+$s_plugin_format_syntax_highlighting_plugin_previewers_desc = 'Ráhúzáskor egy előnézet jelenik meg az „angle”, a „color”, a „gradient”, az „easing” vagy a „time” definícióknál.';
